@@ -1,4 +1,6 @@
-﻿namespace LinqFundamentals
+﻿using LinqFundamentals.Lessons;
+
+namespace LinqFundamentals
 {
     public class Program
     {
@@ -6,6 +8,8 @@
         {
             Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.WriteLine("LINQ Fundamentals");
+
+            LessonI.Execute();
 
             Console.ResetColor();
             Console.WriteLine("\r\nPress any key to end execution . . .");
