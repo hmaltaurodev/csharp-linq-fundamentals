@@ -9,7 +9,8 @@ namespace LinqFundamentals
             Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.WriteLine("LINQ Fundamentals");
 
-            LessonI.Execute();
+            //LessonI.Execute();
+            LessonII.Execute();
 
             Console.ResetColor();
             Console.WriteLine("\r\nPress any key to end execution . . .");
